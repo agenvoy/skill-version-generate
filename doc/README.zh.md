@@ -1,5 +1,6 @@
 > [!NOTE]
-> 此 README 由 [SKILL](https://github.com/pardnchiu/skill-readme-generate) 生成，英文版請參閱 [這裡](../README.md)。
+> 此 README 由 [SKILL](https://github.com/agenvoy/skill-readme-generate) 生成，英文版請參閱 [這裡](../README.md)。<br>
+> 此 skill 的實作內容全由 agent 生成，開發者僅針對 input / output 進行調整。
 
 ***
 
@@ -8,8 +9,7 @@
 </p>
 
 <p align="center">
-<a href="LICENSE"><img src="https://img.shields.io/github/v/tag/pardnchiu/skill-version-generate?include_prereleases&style=for-the-badge" alt="Version"></a>
-<a href="https://github.com/pardnchiu/skill-version-generate/releases"><img src="https://img.shields.io/github/license/pardnchiu/skill-version-generate?include_prereleases&style=for-the-badge" alt="License"></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/agenvoy/skill-version-generate?include_prereleases&style=for-the-badge" alt="License"></a>
 </p>
 
 ***
@@ -19,7 +19,6 @@
 ## 目錄
 
 - [功能特點](#功能特點)
-- [技術堆疊](#技術堆疊)
 - [架構](#架構)
 - [授權](#授權)
 
@@ -32,12 +31,6 @@
 - **可追溯 changelog** — 每條變更帶 PR 編號、作者 handle、commit hash 與 GitHub compare 連結。
 - **BREAKING 強制 Migration** — 破壞性變更必附遷移指引，否則中止產出不留殘缺文件。
 - **主索引自動維護** — 同步更新 `.doc/version-generate/CHANGELOG.md`，新版本 prepend 至最前並附摘要統計。
-
-## 技術堆疊
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=md,bash,git,github&theme=light" />
-</a>
 
 ## 架構
 
